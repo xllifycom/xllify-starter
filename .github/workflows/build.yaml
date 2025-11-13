@@ -20,7 +20,7 @@ jobs:
         with:
           xll_filename: starter
           xllify_version: 0.8.0
-          luau_scripts: |
+          embed_scripts: |
             main.luau
           xllify_key: not-needed
 
