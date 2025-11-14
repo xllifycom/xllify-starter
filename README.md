@@ -1,10 +1,10 @@
 # xllify-starter
 
-This repo demonstrates using the [xllify-build](https://github.com/marketplace/actions/xllify-build) action to package some simple custom functions from [main.luau](main.luau)
+This repo demonstrates using the [xllify-build](https://github.com/marketplace/actions/xllify-build) action to package some simple custom functions defined in [main.luau](main.luau).
 
 This is a template repo so you can create a copy of it and have a ready to build custom function XLL ready to download in about a minute (depending on how fast the runner your build lands on is - it can vary.)
 
-Slightly more sophisticated demos are available in the [xllify-demo](https://github.com/acornsoftuk/xllify-demo) repo. You can download a built XLL straight from the releases page.
+Slightly more sophisticated demos are available in the [xllify-demo](https://github.com/xllifycom/xllify-demo) repo. You can download a built XLL straight from the releases page.
 
 ## Get started, entirely on GitHub
 
@@ -18,7 +18,7 @@ Some familiarity with the GitHub Actions UI is helpful but, briefly:
 
 ### Initial build
 
-- [Use this template to create your own repository](https://github.com/new?template_name=xllify-starter&template_owner=acornsoftuk)
+- [Use this template to create your own repository](https://github.com/new?template_name=xllify-starter&template_owner=xllifycom)
 - Go to the Actions tab, select **xllify Starter** and click on Run workflow
   - This will build an XLL
 - Find the workflow run and observe the build, should take about 40 seconds - **this'll count towards your free GitHub Actions minutes (consumed at 2x)** 
